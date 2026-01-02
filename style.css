@@ -1,1 +1,165 @@
 
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #fff;
+  color: #000;
+}
+
+.header {
+  text-align: center;
+  padding: 4px 20px 6px;
+}
+
+
+
+.subtitle {
+  letter-spacing: 2px;
+  margin-top: 0px;
+}
+
+.location {
+  color: #777;
+  margin-top: 4px;
+}
+
+.catalog {
+  padding: 12px 20px;
+}
+.category {
+  position: relative;
+  margin-bottom: 4px;
+  min-height: 22px;
+}
+
+.category {
+  position: relative;
+  margin-bottom: 6px;   /* controls vertical spacing */
+}
+
+
+.menswear {
+  margin-top: 30px;
+}
+
+
+.subcats {
+  display: none;
+  position: absolute;
+  left: 120px;          /* closer to arrow */
+  top: 0;
+  font-size: 14px;
+  color: #444;
+}
+
+
+
+
+
+
+.category.main {
+  font-weight: 700;
+  margin-top: 40px;     /* THIS pushes Menswear down */
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+}
+
+
+
+
+
+.toggle {
+  cursor: pointer;
+}
+
+
+
+
+.whatsapp-section {
+  text-align: center;
+  margin: 50px 0;
+}
+
+.whatsapp-btn {
+  background: #25D366;
+  color: #fff;
+  padding: 14px 26px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+.legacy {
+  text-align: center;
+  padding: 14px;
+  color: #666;
+}
+
+.legacy-title {
+  letter-spacing: 2px;
+  margin-bottom: 6px;
+}
+
+footer {
+  text-align: center;
+  padding: 12px;
+  font-size: 13px;
+  color: #666;
+}
+.tm {
+  font-size: 12px;
+  vertical-align: super;
+  margin-left: 2px;
+  font-weight: 400;
+}
+.header h1 {
+  margin: 0;
+}
+.menswear {
+  margin-top: 28px;
+}
+
+.menswear {
+  padding-top: 24px;
+}
+
+.menswear {
+  margin-top: 110px;
+}
+.legacy-line {
+  text-align: center;
+  font-size: 13px;
+  color: #666;
+  margin-top: 20px;
+  padding: 0 20px;
+  line-height: 1.5;
+}
+
+.brand-line {
+  text-align: center;
+  font-size: 12px;
+  color: #888;
+  margin-top: 8px;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
+
+.legacy-line {
+  text-align: center;
+  margin: 24px 16px 10px;
+  font-size: 13px;
+  color: #777;
+  line-height: 1.6;
+}
+
+.legacy-label {
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: #555;
+  margin-right: 6px;
+}
+
+.legacy-text {
+  font-weight: 400;
+}
