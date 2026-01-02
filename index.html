@@ -1,1 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SRINIVASA</title>
+<link rel="stylesheet" href="style.css">
+</head>
 
+<body>
+
+<header class="header">
+  <h1>SRINIVASA<span class="tm">™</span></h1>
+  <div class="subtitle">SHOPPING MALL</div>
+  <div class="location">Ramnagar · Hyderabad</div>
+</header>
+
+<section class="catalog">
+
+<!-- SAREES -->
+<div class="category main">SAREES</div>
+
+<div class="category">
+  <div class="toggle" onclick="toggle(this)">SILK ▶</div>
+  <div class="subcats">
+    Kanchipuram<br>
+    Dharmavaram<br>
+    Banaras<br>
+    Uppada<br>
+    Gadwal<br>
+    Fancy Silk
+  </div>
+</div>
+
+<div class="category">
+  <div class="toggle" onclick="toggle(this)">COTTON ▶</div>
+  <div class="subcats">
+    Mangalagiri<br>
+    Narayanpet<br>
+    Printed Cotton<br>
+    Fancy Cotton
+  </div>
+</div>
+
+<div class="category">CHIFFON ▶</div>
+<div class="category">GEORGETTE ▶</div>
+<div class="category">SATIN ▶</div>
+
+<!-- MENSWEAR -->
+<div class="category main menswear">MENSWEAR</div>
+
+
+<div class="category">
+  <div class="toggle" onclick="toggle(this)">Ethnic Wear ▶</div>
+  <div class="subcats">
+    Dhoti<br>
+    Lungi<br>
+    (More coming)
+  </div>
+</div>
+
+<div class="category">
+  <div class="toggle" onclick="toggle(this)">Shirts ▶</div>
+  <div class="subcats">
+    Formal Shirts<br>
+    Casual Shirts
+    
+
+  </div>
+</div>
+
+<div class="category">Jeans</div>
+  <div class="category">Trousers</div>
+
+<div class="category">Fabric (Cloth)</div>
+<div class="category">
+  <div class="toggle" onclick="toggle(this)">
+    MORE ▶
+  </div>
+  <div class="subcats">
+    Curtains<br>
+    Towels
+  </div>
+</div>
+
+</section>
+
+<section class="whatsapp-section">
+  <a class="whatsapp-btn"
+     href="https://wa.me/918179456654?text=PRICES%20ARE%20FIXED"
+     target="_blank">
+     WhatsApp Us
+  </a>
+</section>
+
+<div class="legacy-line">
+  <span class="legacy-label">LEGACY</span>
+  <span class="legacy-text">
+    Established in 1974 · Serving Andhra Pradesh & Telangana for 50+ years · Wholesale prices 365 days a year
+  </span>
+</div>
+
+<footer>© SRINIVASA · HYDERABAD</footer>
+
+
+
+<script>
+function toggle(el) {
+  // close all other subcats
+  document.querySelectorAll('.subcats').forEach(menu => {
+    if (menu !== el.nextElementSibling) {
+      menu.style.display = 'none';
+    }
+  });
+
+  // toggle current one
+  const sub = el.nextElementSibling;
+  if (!sub) return;
+  sub.style.display = sub.style.display === "block" ? "none" : "block";
+}
+</script>
+
+
+</body>
+</html>
